@@ -1,0 +1,86 @@
+<html>
+  <head>
+  <title>My Now Amazing Webpage</title>
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  
+  <style>
+  	.slick-prev:before, .slick-next:before { color: black; }
+
+.container{padding-top:50px;}
+.client-text li {left:0;right:0;margin:auto;list-style:none;margin:50px;z-index:9999;color:black;}
+
+.item{ height: 200px;}
+.one {background-image: url("http://placehold.it/200&text=1"); }
+.two {background-image: url("http://placehold.it/200&text=2"); }
+.three {background-image: url("http://placehold.it/200&text=3"); }
+.four {background-image: url("http://placehold.it/200&text=4"); }
+.five {background-image: url("http://placehold.it/200&text=5"); }
+.six {background-image: url("http://placehold.it/200&text=6"); }
+.seven {background-image: url("http://placehold.it/200&text=7"); }
+.eight {background-image: url("http://placehold.it/200&text=8"); }
+.nine {background-image: url("http://placehold.it/200&text=9"); }
+.ten {background-image: url("http://placehold.it/200&text=10"); }
+.slick-slide{
+  width:230px;
+margin-right: 15px;
+margin-left: 15px;
+}
+
+
+.triangle{left:0;right:0;margin:auto;width:0;
+height: 0;
+border-style: solid;
+border-width: 15px 15px 0 15px;
+border-color: #333333 transparent transparent transparent;
+}
+  </style>
+  </head>
+  <body>
+
+  <!-- Standard carousel where Slick calculated the best widths to fit. -->
+
+        <div id="carousel" class="carousel col-md-12">
+            <div class="item">UNO</div>
+            <div class="item">DOS</div>
+            <div class="item">TRES</div>
+            <div class="item">CUATRO</div>
+        </div>
+          <div class="triangle"></div>
+
+
+
+<!-- But I want a 20px gap between slides. Hmm this doesn't work at all. -->
+
+
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+
+  <script type="text/javascript">
+   $('#carousel').slick({
+    arrows: true,
+    slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed:2500,
+    speed: 500,
+    variableWidth: true,
+    onAfterChange: function(){ 
+          var cat = ($('#carousel').slickCurrentSlide()) + 1;
+          $('.client-text > li').hide();
+          $('.client-text > li:nth-child('+ cat +')').show();
+    }
+});
+
+
+
+  $('.client-text > li').hide();
+  $('.client-text > li:first-child').show();
+
+	
+	
+  </script>
+
+  </body>
+</html>
