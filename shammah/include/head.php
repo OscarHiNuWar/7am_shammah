@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <title>SHAMMAH</title>
@@ -51,11 +47,15 @@
 			
 			
 .slick-prev:before, .slick-next:before { color: black; }
+
 .container{padding-top:50px;}
+
+
+
 .client-text li {left:0;right:0;margin:auto;list-style:none;margin:50px;z-index:9999;color:black;}
 
 .item{ height: 200px;}
-.slide-item{ padding-top: 35px; height: 100px;}
+.otroitem{ height: 100px;}
 .one {background-image: url("http://placehold.it/200&text=1"); }
 .two {background-image: url("http://placehold.it/200&text=2"); }
 .three {background-image: url("http://placehold.it/200&text=3"); }
@@ -66,6 +66,7 @@
 .eight {background-image: url("http://placehold.it/200&text=8"); }
 .nine {background-image: url("http://placehold.it/200&text=9"); }
 .ten {background-image: url("http://placehold.it/200&text=10"); }
+
 .slick-slide{
   width:1.4%;
 margin-right: 15px;
@@ -73,11 +74,10 @@ margin-left: 15px;
 }
 
 .minislick-slide{
-  width:0.6%;
+  width:0.3%;
 margin-right: 15px;
 margin-left: 15px;
 }
-
 
 .triangle{left:0;right:0;margin:auto;width:0;
 height: 0;
@@ -86,4 +86,3 @@ border-width: 15px 15px 0 15px;
 border-color: #333333 transparent transparent transparent;
 }
     </style>
-
