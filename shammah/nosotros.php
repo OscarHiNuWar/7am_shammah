@@ -1,171 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-<title>SHAMMAH</title>
-<link href="css/template.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="css/swiper.min.css">	
-
-<link rel="stylesheet" type="text/css" href="css/slick.css"/>
-<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-
-<style>
-    
-     .swiper-container {
-        width: 100%;
-        height: 500px;
-    }
-	
-	
-    .swiper-slide {
-        font-size: 18px;
-        background: #fff;
-		height:500px;
-		overflow:hidden;
-
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-    }
-	
-	.swiper-slide{
-		background:#000;}
-		
-		.swiper-slide img{
-			opacity:0.8;
-			}
-			
-			
-.slick-prev:before, .slick-next:before { color: black; }
-.container{padding-top:50px;}
-.client-text li {left:0;right:0;margin:auto;list-style:none;margin:50px;z-index:9999;color:black;}
-
-.item{ height: 200px;}
-.one {background-image: url("http://placehold.it/200&text=1"); }
-.two {background-image: url("http://placehold.it/200&text=2"); }
-.three {background-image: url("http://placehold.it/200&text=3"); }
-.four {background-image: url("http://placehold.it/200&text=4"); }
-.five {background-image: url("http://placehold.it/200&text=5"); }
-.six {background-image: url("http://placehold.it/200&text=6"); }
-.seven {background-image: url("http://placehold.it/200&text=7"); }
-.eight {background-image: url("http://placehold.it/200&text=8"); }
-.nine {background-image: url("http://placehold.it/200&text=9"); }
-.ten {background-image: url("http://placehold.it/200&text=10"); }
-.slick-slide{
-  width:1.4%;
-margin-right: 15px;
-margin-left: 15px;
-}
-
-
-.triangle{left:0;right:0;margin:auto;width:0;
-height: 0;
-border-style: solid;
-border-width: 15px 15px 0 15px;
-border-color: #333333 transparent transparent transparent;
-}
-    </style>
+<?php include("include/head.php");?>
 </head>
 
 <body>
-<div id="super-menu" class="activo">
-	<div id="soluciones-left">
-    	<div id="soluciones-personas-header">
-        <div><span></span>Soluciones para Personas</div>
-        </div>
-    <div class="content-menu-super">
-    	<ul>
-        	<a href="seguros.php" style="text-decoration:none; color:black;"><li>Seguro de automóvil</li></a>
-            <a href="responsabilidad.php" style="text-decoration:none; color:black;"><li class="no-right">Responsabilidad Civil</li></a>
-            <a href="saludlocal.php" style="text-decoration:none; color:black;"><li>Salud local</li></a>
-			<a href="saludinternacional.php" style="text-decoration:none; color:black;"><li class="no-right">Salud internacional</li></a>
-            <a href="accidentes.php" style="text-decoration:none; color:black;"><li >Accidentes personales</li></a>
-            <a href="segurosviajes.php" style="text-decoration:none; color:black;"><li class="no-right">Seguro de viaje</li></a>
-            <a href="salud.php" style="text-decoration:none; color:black;"><li >Seguro de vida</li></a>
-			<a href="enfermedadescatastroficas.php" style="text-decoration:none; color:black;"><li class="no-right">Enfermedades Catastróficas</li></a>
-            <a href="gastos.php" style="text-decoration:none; color:black;"><li >Últimos Gastos</li></a>
-        </ul>
-    </div>
-    </div>
+<?php include("include/menu.php");?>
 
-<div id="soluciones-right">
-    	<div id="soluciones-empresas-header">
-        <div><span></span>Soluciones para Empresas</div>
-        </div>
-    <div class="content-menu-super">
-    	<ul>
-        	<a href="fianzas.php" style="text-decoration:none; color:black;"><li>Fianzas</li></a>
-            <a href="seguros.php" style="text-decoration:none; color:black;"><li class="no-right">Seguro de Automóvil</li></a>
-            <a href="responsabilidad.php" style="text-decoration:none; color:black;"><li>Responsabilidad Civil</li></a>
-            <a href="seguroaereo.php" style="text-decoration:none; color:black;"><li class="no-right">Seguro Aéreos y Marítimos</li></a>
-            <a href="transportecarga.php" style="text-decoration:none; color:black;"><li>Transporte de carga</li></a>
-            <a href="incendio.php" style="text-decoration:none; color:black;"><li class="no-right">Incendio y Líneas aliadas</li></a>
-			<a href="fidelidad.php" style="text-decoration:none; color:black;"><li>Fidelidad 3D</li></a>
-            <a href="interrupcionnegocios.php" style="text-decoration:none; color:black;"><li class="no-right">Interrupción de Negocios</li></a>
-			<a href="asalto.php" style="text-decoration:none; color:black;"><li>Seguro de Asalto y Atraco</li></a>
-        </ul>
-    </div>
-    </div>
-
-</div>
-<header>
-<div id="topper">
-	<div id="contacto">C/ Eugenio Deschamps No. 61 Los Prados, Santo Domingo <span class="phone"></span>809-555-5555</div>
-</div>
-<!--FIN DEL TOPPER-->
-
-<div id="content-menu">
-	<div id="center-menu">
-    	<a href="index.php"><div id="logo"><img src="images/logo.jpg" width="227" height="52" /></div></a>
-        <div id="menu">
-        	<nav>
-            	<ul>
-                	
-                	<li class="productos-b">
-                    	<div class="verde-menu"></div>
-                        productos
-                    </li>
-                    <li>
-                    	<div class="verde-menu"></div>
-                    	Nosotros
-                    </li>
-                    <li>
-                    	<div class="verde-menu"></div>
-                    	Clientes
-                    </li>
-                    <li>
-                    	<div class="verde-menu"></div>
-                    	Contactos
-                    </li>
-                    <li class="icon-twitter"><div ></div></li>
-                    <div class="separador-nav"></div>
-                    <li class="icon-facebook"><div ></div></li>
-                    <div class="separador-nav"></div>
-                    <li class="icon-instagram"><div ></div></li>
-                    
-                </ul>
-                
-            </nav>
-        </div>
-  </div>
-</div>
-</header>
-
-<div class="raya-verde"></div>
-	
      
       
         
@@ -180,16 +21,16 @@ border-color: #333333 transparent transparent transparent;
     
 <div class="contenedor-sobrenosotros">
         
-    <div class="caja">
-    <div id="quienesomos" class="ventajas">
+    <div class="caja" >
+    <div id="quienesomos" class="ventajas" >
             <div class="titulo">¿Quiénes somos?</div>
             <div class="texto-ventaja">SHAMMAH es una empresa de corredores de seguros que provee servicios y soluciones innovadoras
                 en todo lo que concierne a seguros y administración de riesgos. Nace en el enero del 2014 con la 
                 iniciativa de proveer una asistencia y un servicio sin precedentes. En la actualidad contamos con más de 
                 600 clientes a los cuales agradecemos por haber nos dado la oportunidad de ser sus corredores.</div>
         </div>
-        <br>
-        <div id="mision" class="ventajas">
+       
+        <div id="mision" class="ventajas" >
             <div class="titulo">Misión</div>
             <div class="texto-ventaja">Ofrecer a nuestros clientes asesoría de seguros con profesionalidad, comprometidos con la calidad del 
                 servicio, Manteniendo siempre una relación de confianza y respeto con nuestros proveedores, clientes y 
@@ -197,13 +38,13 @@ border-color: #333333 transparent transparent transparent;
         </div>
         </div>
     
-        <div class="caja">
-        <div id="vision" class="ventajas">
+        <div class="caja" >
+        <div id="vision" class="ventajas" >
             <div class="titulo">Visión</div>
             <p>Ser la firma de corredores preferidos de todos los dominicanos y de más alto prestigio.</p>
         </div>
-        <br>
-        <div id="valores" class="ventajas">
+        
+        <div id="valores" class="ventajas" >
             <div class="titulo">Valores</div>
             <p>Servicio eficiente
                 <br>
@@ -218,8 +59,8 @@ border-color: #333333 transparent transparent transparent;
             </p>
         </div>
             </div>
-       <div class="caja">
-        <div id="objetivo" class="ventajas">
+       <div class="caja" >
+        <div id="objetivo" class="ventajas" >
             <div class="titulo">Objectivo</div>
             <p><b>Nuestra principal  diferencia</b>
                 <br>
