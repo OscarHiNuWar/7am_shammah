@@ -251,6 +251,7 @@ body{
 			float:left;
 			}
 			
+			
 			.soluciones-col h1{
 				font-family: 'helveticabold';
 				margin:0;
@@ -283,6 +284,11 @@ body{
 				margin-right:5%;
 				font-family: 'HelveticaLight';
 				font-size:18px;
+				
+				}
+				
+				.soluciones-col ul a li:hover{
+				color:#009a4d;
 				
 				}
 			
@@ -745,12 +751,36 @@ body{
     border-top: 0px;
 }
 
+.grantitulo{
+    margin: 0;
+	margin-left: 50px;
+	
+    padding: 0;
+    font-size: 28px;
+    font-family: 'helveticabold';
+    color: /*#575857*/ #009a4d;
+    padding-right: 5%;
+}
+
+.titulonos{
+    margin: 0;
+	margin-left: 50px;
+    padding: 0;
+    font-size: 28px;
+    font-family: 'helveticabold';
+    color: /*#575857*/ #009a4d;
+    padding-right: 5%;
+}
+
+
 .titulo{
     margin: 0;
+	margin-left: 54px;
+	margin-top: 30px;
     padding: 0;
-    font-size: 32px;
+    font-size: 22px;
     font-family: 'helveticabold';
-    color: #575857;
+    color: #009a4d;;
     padding-right: 5%;
 }
 
@@ -765,19 +795,32 @@ body{
 
 .texto-ventaja{
 	padding-right: 12%;
+	margin-left: 50px;
     font-family: 'HelveticaLight';
-    font-size: 20px;
+    font-size: 17px;
     padding-top: 17px;
     line-height: 1.5;
     padding-bottom: 0;
     margin-bottom: 0;
+	width: 90%;
+}
 
+.texto-nosotro{
+	padding-right: 12%;
+	margin-left: 50px;
+    font-family: 'HelveticaLight';
+    font-size: 17px;
+    padding-top: 17px;
+    line-height: 1.5;
+    padding-bottom: 0;
+    margin-bottom: 0;
+	width: 90%;
 }
 
 
 
 .contenedor-sobrenosotros{
-    width: 80%;
+    width: 96%;
     float: left;
     margin-left: 60px;
     /*margin: 30px 0 0 5%;*/
@@ -788,8 +831,25 @@ body{
     float: left;
     width: 100%;
 /*    border-bottom: 1px solid #e3e3e3;*/
-    padding: 7px 0 30px 21px;
+    padding: 7px 0 47px 21px;
 /*    padding-bottom: 30px;*/
+}
+
+.minicaja{
+    float: left;
+    width: 48%;
+/*    border-bottom: 1px solid #e3e3e3;*/
+    padding: 7px 0 30px 0px;
+/*    padding-bottom: 30px;*/
+}
+
+#mision{
+	padding-bottom: 20px;
+}
+
+.nosencaje{
+	width: 50%;
+	float: left;
 }
 
 .contendor-menucolor{
@@ -825,9 +885,10 @@ body{
 }
 
 .contenido-ventajas{
-    width: 45%;
+    width: 40%;
     padding-top: 5%;
-    margin-left: 3%;
+    margin-left: 4%;
+	margin-right: 4%;
     float: left;
 }
 
@@ -851,8 +912,7 @@ body{
 }
 
 .contenedor-ventajas{
-    width: 90%;
-    
+    width: 84%;
     margin: auto;
     margin-top: 30px;
 }
@@ -871,7 +931,6 @@ body{
 
 .content-demas{
 	border-bottom: 1px solid #e2e0e0;
-	width:100%;
 	height:367px; /*ESTE TAMANO HAY QUE CAMBIARLO */ 
 }
 
@@ -948,4 +1007,14 @@ height: 0;
 border-style: solid;
 border-width: 15px 15px 0 15px;
 border-color: #333333 transparent transparent transparent;
+}
+
+/*Flechas*/
+
+.flecha-izquierda{
+float: left;
+}
+
+.flecha-derecha{
+float: right;
 }

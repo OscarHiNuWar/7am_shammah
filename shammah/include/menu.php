@@ -42,7 +42,7 @@
 
 <header>
 <div id="topper">
-    <div id="contacto">C/ Eugenio Deschamps No. 61 Los Prados, Santo Domingo <span class="phone"></span>809-555-5555</div>
+    <div id="contacto">C/ Eugenio Deschamps No. 61 Los Prados, Santo Domingo <span class="phone"></span>809-277-7744</div>
 </div>
 <!--FIN DEL TOPPER-->
 
@@ -52,23 +52,24 @@
         <div id="menu">
             <nav>
                 <ul>
-                    
+                    <div id="producto"></div>
                     <li class="productos-b">
                         <div class="verde-menu"></div>
                         productos
                     </li>
-                    <a href="nosotros.php"><li>
+                    <a href="nosotros.php"><li class="out">
                         <div class="verde-menu"></div>
                         Nosotros
                     </li></a>
-                    <li>
+                   <a href="#client" rel="" id="anchor1" class="anchorLink" style="text-decoration: none; color: inherit;"> <li>
                         <div class="verde-menu"></div>
                         Clientes
-                    </li>
-                    <li>
+                    </li></a>
+					
+                   <a href="#contact" rel="" id="anchor1" class="anchorLink" style="text-decoration: none; color: inherit;"> <li>
                         <div class="verde-menu"></div>
                         Contactos
-                    </li>
+                    </li> </a>
                     <li class="icon-twitter"><div ></div></li>
                     <div class="separador-nav"></div>
                     <li class="icon-facebook"><div ></div></li>

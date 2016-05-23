@@ -19,63 +19,61 @@
 	  <div id="art-div" style="padding:0px;">
      
     
-<div class="contenedor-sobrenosotros">
+<div class="contenedor-ventajas">
         
     <div class="caja" >
     <div id="quienesomos" class="ventajas" >
-            <div class="titulo">¿Quiénes somos?</div>
-            <div class="texto-ventaja">SHAMMAH es una empresa de corredores de seguros que provee servicios y soluciones innovadoras
+            <div class="titulonos">Sobre Nosotros</div>
+            <div class="texto-nosotro">SHAMMAH es una empresa de corredores de seguros que provee servicios y soluciones innovadoras
                 en todo lo que concierne a seguros y administración de riesgos. Nace en el enero del 2014 con la 
-                iniciativa de proveer una asistencia y un servicio sin precedentes. En la actualidad contamos con más de 
-                600 clientes a los cuales agradecemos por haber nos dado la oportunidad de ser sus corredores.</div>
+                iniciativa de proveer una asistencia y un servicio sin precedentes. <br><br>
+				En la actualidad contamos con más de 600 clientes a los cuales agradecemos por haber nos dado la oportunidad 
+				de ser sus corredores.</div>
         </div>
        
-        <div id="mision" class="ventajas" >
+        
+        
+    
+        <div class="minicaja" >
+		<div id="mision" class="ventajas nosencaje" >
             <div class="titulo">Misión</div>
-            <div class="texto-ventaja">Ofrecer a nuestros clientes asesoría de seguros con profesionalidad, comprometidos con la calidad del 
+            <div class="texto-nosotro">Ofrecer a nuestros clientes asesoría de seguros con profesionalidad, comprometidos con la calidad del 
                 servicio, Manteniendo siempre una relación de confianza y respeto con nuestros proveedores, clientes y 
                 colaboradores.</div>
         </div>
-        </div>
-    
-        <div class="caja" >
+		
+		
         <div id="vision" class="ventajas" >
             <div class="titulo">Visión</div>
-            <p>Ser la firma de corredores preferidos de todos los dominicanos y de más alto prestigio.</p>
-        </div>
+            <div class="texto-nosotro">Ser la firma de corredores preferidos de todos los dominicanos y de más alto prestigio.</div>
+        </div></div>
         
+		
+		<div class="minicaja" style="padding-left: 20px;">
         <div id="valores" class="ventajas" >
             <div class="titulo">Valores</div>
-            <p>Servicio eficiente
-                <br>
-                Compromiso
-                <br>
-                Responsabilidad
-                <br>
-                Confianza
-                <br>
-                Respecto
-                <br>
-            </p>
-        </div>
+            <div class="texto-nosotro">
+			<ul style="margin-top:0px;">
+				<li>Servicio eficiente</li>
+                
+                <li>Compromiso</li>
+                
+                <li>Responsabilidad</li>
+                
+                <li>Confianza</li>
+                
+                <li>Respecto</li>
+                
+			</ul>	
             </div>
-       <div class="caja" >
-        <div id="objetivo" class="ventajas" >
-            <div class="titulo">Objectivo</div>
-            <p><b>Nuestra principal  diferencia</b>
-                <br>
-                Testimonios de clientes
-                <br>
-                Acreditaciones
-                <br>
-                Logo de Clientes
-                <br>
-            </p>
         </div>
+            
+       
+        
         </div>
     
     
-    
+    </div>
     </div>
     
     
@@ -120,42 +118,7 @@
 
     
 <footer>
-<div id="content-footer">
-  <div id="content-in-footer">
-    <div class="footer-col">
-    	<ul>
-        	<li>Nuestros Clientes </li>
-            <li>Nuestros Clientes </li>
-            <li>Nuestros Clientes </li>
-            <li>Nuestros Clientes </li>
-        </ul>
-    </div>
-    <div class="footer-col">
-    	<ul>
-        	<li>Nuestros Clientes </li>
-            <li>Nuestros Clientes </li>
-            <li>Nuestros Clientes </li>
-            
-        </ul>
-    </div>
-    <div class="footer-col">
-    	<ul>
-        	<li>Nuestros Clientes </li>
-            <li>Nuestros Clientes </li>
-            <li>Nuestros Clientes </li>
-            <li>Nuestros Clientes </li>
-        </ul>
-    </div>
-    <div class="footer-col" style="margin-right:0 !important;">
-    	<ul>
-        	<li>Nuestros Clientes </li>
-            <li>Nuestros Clientes </li>
-            <li>Nuestros Clientes </li>
-            <li>Nuestros Clientes </li>
-        </ul>
-    </div>
-  </div>
-</div>
+<?php include("include/footer.php");?>
 <div id="content-creditos">
 	<div id="center-creditos">©Copyright 2016. Todos los derechos reservados. SHAMMAH Corredores de Seguros. <span style="float:right;">Desarrollado por: <a href="#">www.agencia7am.com</a></span></div>
 </div>

@@ -5,7 +5,7 @@ $(document).ready(function(){
 	///////////////////////////////////////////////////////////////////////
 	// ESTE CODIGO ES PARA MOSTRAR EL MENU DE PRODUCTOS
 	//////////////////////////////////////////////////////////////////////
-	$(".productos-b").mouseenter('click',function(){
+	$(".productos-b").click(function(){
 		// $("body").addClass("ocultar");
 		 $('#super-menu').slideDown();
 		 $('body').css("overflow","hidden");
@@ -13,13 +13,22 @@ $(document).ready(function(){
 		 
 		});
 		
-	$("#super-menu").mouseleave('click',function(){
+	$(".out").mouseover(function(){
 		// $("body").addClass("ocultar");
 		 $('#super-menu').slideUp(); 
 		 $('body').css("overflow","none");
-		e.stopPropagation(); 
+		//e.stopPropagation(); 
 		 
 		});
+		
+	$("#super-menu").mouseleave(function(){
+		// $("body").addClass("ocultar");
+		 $('#super-menu').slideUp(); 
+		 $('body').css("overflow","none");
+		//e.stopPropagation(); 
+		 
+		});
+		
 		
 
 	

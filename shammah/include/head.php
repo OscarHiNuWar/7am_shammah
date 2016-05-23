@@ -3,6 +3,7 @@
 <title>SHAMMAH</title>
 <link href="css/template.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="css/swiper.min.css">	
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
 <link rel="stylesheet" type="text/css" href="css/slick.css"/>
 <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
